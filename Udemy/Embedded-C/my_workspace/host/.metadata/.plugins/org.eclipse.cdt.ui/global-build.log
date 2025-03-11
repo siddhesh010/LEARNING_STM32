@@ -1,0 +1,13 @@
+12:29:33 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+cc1.exe: fatal error: ..\src\main.c: No such file or directory
+compilation terminated.
+12:36:04 **** Rebuild of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o 000TestProject.exe "src\\main.o" 
+12:37:11 **** Incremental Build of configuration Debug for project 000TestProject ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+gcc -o 000TestProject.exe "src\\main.o" 
