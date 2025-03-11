@@ -1,0 +1,10 @@
+00:18:39 **** Incremental Build of configuration Debug for project 001memory_layout ****
+make -j12 all 
+arm-none-eabi-size  001memory_layout.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4956	    108	   1908	   6972	   1b3c	001memory_layout.elf
+Finished building: default.size.stdout
+ 
+
+00:18:39 Build Finished. 0 errors, 0 warnings. (took 150ms)
+

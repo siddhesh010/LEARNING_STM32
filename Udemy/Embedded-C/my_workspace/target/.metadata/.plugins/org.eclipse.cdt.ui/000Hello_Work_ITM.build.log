@@ -1,0 +1,10 @@
+23:52:56 **** Incremental Build of configuration Debug for project 000Hello_Work_ITM ****
+make -j12 all 
+arm-none-eabi-size  000Hello_Work_ITM.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3380	    100	   1900	   5380	   1504	000Hello_Work_ITM.elf
+Finished building: default.size.stdout
+ 
+
+23:52:56 Build Finished. 0 errors, 0 warnings. (took 151ms)
+
